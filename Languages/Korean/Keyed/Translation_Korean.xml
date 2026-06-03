@@ -252,6 +252,8 @@ Scriban 매직 (동적 콘텐츠)
     <RimTalk.Settings.GoogleApiKeyLabel>Google AI API 키:</RimTalk.Settings.GoogleApiKeyLabel>
     <RimTalk.Settings.GoogleApiKeyDesc>무료 Gemma-4-26b-a4b 모델을 사용합니다. 다른 모델이나 제공업체를 사용하려면 고급 설정을 이용하세요.</RimTalk.Settings.GoogleApiKeyDesc>
     <RimTalk.Settings.GetFreeApiKeyButton>무료 API 키 받기</RimTalk.Settings.GetFreeApiKeyButton>
+    <RimTalk.Settings.EnableThinkingMode>Enable thinking mode</RimTalk.Settings.EnableThinkingMode>
+    <RimTalk.Settings.EnableThinkingModeTooltip>Include thinking/reasoning hints in API requests for supported models.</RimTalk.Settings.EnableThinkingModeTooltip>
     <RimTalk.Settings.SwitchToAdvancedSettings>고급 설정으로 전환</RimTalk.Settings.SwitchToAdvancedSettings>
     <RimTalk.Settings.SwitchToSimpleSettings>간단한 설정으로 전환</RimTalk.Settings.SwitchToSimpleSettings>
     <RimTalk.Settings.CloudProviders>클라우드 서비스</RimTalk.Settings.CloudProviders>

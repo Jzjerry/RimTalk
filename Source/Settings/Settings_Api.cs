@@ -46,6 +46,8 @@ public partial class Settings
         Text.Font = GameFont.Small;
 
         listingStandard.Gap();
+        DrawThinkingModeToggle(listingStandard, settings);
+        listingStandard.Gap();
 
         // Show Advanced Settings button
         Rect advancedButtonRect = listingStandard.GetRect(30f);
@@ -110,11 +112,21 @@ public partial class Settings
         Text.Font = GameFont.Small;
 
         listingStandard.Gap();
+        DrawThinkingModeToggle(listingStandard, settings);
+        listingStandard.Gap();
 
         // Draw appropriate section based on selection
         if (settings.UseCloudProviders)
         {
             DrawCloudProvidersSection(listingStandard, settings);
+        }
+
+        private static void DrawThinkingModeToggle(Listing_Standard listingStandard, RimTalkSettings settings)
+        {
+            listingStandard.CheckboxLabeled(
+                "RimTalk.Settings.EnableThinkingMode".Translate().ToString(),
+                ref settings.EnableThinkingMode,
+                "RimTalk.Settings.EnableThinkingModeTooltip".Translate().ToString());
         }
         else
         {

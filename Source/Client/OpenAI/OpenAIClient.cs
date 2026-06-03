@@ -114,8 +114,7 @@ public class OpenAIClient(
         }
         
         string? reasoningEffort = null;
-
-        if (!string.IsNullOrEmpty(model))
+        if (Settings.Get().EnableThinkingMode && !string.IsNullOrEmpty(model))
         {
             string m = model.ToLower();
             if (m.Contains("gemini") && m.Contains("pro"))
