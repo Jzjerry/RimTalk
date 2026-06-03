@@ -120,18 +120,18 @@ public partial class Settings
         {
             DrawCloudProvidersSection(listingStandard, settings);
         }
-
-        private static void DrawThinkingModeToggle(Listing_Standard listingStandard, RimTalkSettings settings)
-        {
-            listingStandard.CheckboxLabeled(
-                "RimTalk.Settings.EnableThinkingMode".Translate().ToString(),
-                ref settings.EnableThinkingMode,
-                "RimTalk.Settings.EnableThinkingModeTooltip".Translate().ToString());
-        }
         else
         {
             DrawLocalProviderSection(listingStandard, settings);
         }
+    }
+
+    private static void DrawThinkingModeToggle(Listing_Standard listingStandard, RimTalkSettings settings)
+    {
+        listingStandard.CheckboxLabeled(
+            "RimTalk.Settings.EnableThinkingMode".Translate().ToString(),
+            ref settings.EnableThinkingMode,
+            "RimTalk.Settings.EnableThinkingModeTooltip".Translate().ToString());
     }
     
     private void DrawCloudProvidersSection(Listing_Standard listingStandard, RimTalkSettings settings)
