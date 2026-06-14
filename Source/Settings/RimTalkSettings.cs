@@ -16,6 +16,7 @@ public class RimTalkSettings : ModSettings
     public bool UseCloudProviders = true;
     public bool UseSimpleConfig = true;
     public string SimpleApiKey = "";
+    public bool EnableThinkingMode = true;
     public bool IsUsingFallbackModel = false;
     public bool IsEnabled = true;
     public int TalkInterval = 7;
@@ -164,6 +165,7 @@ public class RimTalkSettings : ModSettings
         Scribe_Values.Look(ref UseCloudProviders, "useCloudProviders", true);
         Scribe_Values.Look(ref UseSimpleConfig, "useSimpleConfig", true);
         Scribe_Values.Look(ref SimpleApiKey, "simpleApiKey", "");
+        Scribe_Values.Look(ref EnableThinkingMode, "enableThinkingMode", true);
         Scribe_Values.Look(ref IsEnabled, "isEnabled", true);
         Scribe_Values.Look(ref TalkInterval, "talkInterval", 7);
         Scribe_Values.Look(ref ProcessNonRimTalkInteractions, "processNonRimTalkInteractions", true);

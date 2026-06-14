@@ -252,6 +252,8 @@ Conseils Cruciaux :
     <RimTalk.Settings.GoogleApiKeyLabel>Clé API Google AI :</RimTalk.Settings.GoogleApiKeyLabel>
     <RimTalk.Settings.GoogleApiKeyDesc>Utilise le modèle gratuit Gemma-4-26b-a4b. Pour d'autres modèles ou fournisseurs, utilisez les Paramètres Avancés.</RimTalk.Settings.GoogleApiKeyDesc>
     <RimTalk.Settings.GetFreeApiKeyButton>Obtenir une clé API gratuite</RimTalk.Settings.GetFreeApiKeyButton>
+    <RimTalk.Settings.EnableThinkingMode>Enable thinking mode</RimTalk.Settings.EnableThinkingMode>
+    <RimTalk.Settings.EnableThinkingModeTooltip>Include thinking/reasoning hints in API requests for supported models.</RimTalk.Settings.EnableThinkingModeTooltip>
     <RimTalk.Settings.SwitchToAdvancedSettings>Passer aux paramètres avancés</RimTalk.Settings.SwitchToAdvancedSettings>
     <RimTalk.Settings.SwitchToSimpleSettings>Passer aux paramètres simples</RimTalk.Settings.SwitchToSimpleSettings>
     <RimTalk.Settings.CloudProviders>Fournisseurs Cloud</RimTalk.Settings.CloudProviders>

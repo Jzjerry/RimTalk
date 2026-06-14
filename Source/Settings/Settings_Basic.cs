@@ -245,6 +245,7 @@ public partial class Settings
             settings.ContinueDialogueWhileSleeping = false;
             settings.ApplyMoodAndSocialEffects = false;
             settings.UseSimpleConfig = true;
+            settings.EnableThinkingMode = true;
             settings.DisableAiAtSpeed = 0;
             settings.ButtonDisplay = ButtonDisplayMode.Toggle;
         }
